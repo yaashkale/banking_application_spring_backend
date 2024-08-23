@@ -1,36 +1,27 @@
-HELP.md
+# Ignore build artifacts
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
+# Ignore IDE-specific files
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+.settings/
+.idea/
 *.iml
-*.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Ignore Maven/Gradle wrapper and other temporary files
+.mvn/
+.gradle/
+*.jar
+*.war
+*.ear
 
-### Ignore application.properties ###
-/src/main/resources/application.properties
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore application properties file with sensitive data
+src/main/resources/application.properties
+
 
 ### VS Code ###
 .vscode/
