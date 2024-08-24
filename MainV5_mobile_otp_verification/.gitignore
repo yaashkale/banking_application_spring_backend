@@ -1,0 +1,27 @@
+# Ignore build artifacts
+target/
+
+# Ignore IDE-specific files
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Ignore Maven/Gradle wrapper and other temporary files
+.mvn/
+.gradle/
+*.jar
+*.war
+*.ear
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore application properties file with sensitive data
+src/main/resources/application.properties
+
+
+### VS Code ###
+.vscode/
